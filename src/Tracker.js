@@ -6,10 +6,10 @@ import "./Tracker.css";
 function Tracker() {
   // The dynamic links displayed @ tracker on header ============================================
   const trackerNavs = [
-    { name: "ORDER ONLINE", path: "/pages/order" },
+    { name: "ORDER ONLINE", path: "/pages/order/menu" },
     { name: "MENU", path: "/pages/order/menu" },
-    { name: "DEALS", path: "/pages/order" },
-    { name: "STORES", path: "/pages/order" },
+    { name: "DEALS", path: "/pages/order/menu" },
+    { name: "STORES", path: "/pages/order/store" },
     { name: "TRACKER", path: "/pages/tracker" },
   ];
   // ========================================================================================

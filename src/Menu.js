@@ -6,7 +6,7 @@ function Menu() {
     const menuNavs = [
         { name: "HOME", path: "/" },
         { name: "MENU", path: "/pages/order/menu" },
-        { name: "DEALS", path: "/pages/order" }
+        { name: "DEALS", path: "/pages/order/menu" }
         
       ];
     return (
