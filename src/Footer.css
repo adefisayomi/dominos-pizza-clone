@@ -1,0 +1,109 @@
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #dbdbdb;
+  position: static;
+  bottom: 0;
+  left: 0;
+}
+.footer__container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__navLink {
+  font-family: "roboto";
+  padding-right: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(87, 85, 85);
+}
+.footer__navLink1,
+.footer__navLink2,
+.footer__navLink3 {
+  border-right: 1px solid rgb(87, 85, 85);
+}
+.footer__navLink2,
+.footer__navLink3,
+.footer__navLink4 {
+  padding-left: 20px;
+}
+.footer__imageSection {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+.footer__banners {
+  width: 550px;
+  object-fit: contain;
+}
+.footer__social {
+  padding-right: 20px;
+}
+.footer__facebook,
+.footer__twitter {
+  color: #0078ae;
+  font-size: 30px !important;
+  margin-right: 5px;
+}
+.footer__deliveryNote {
+  font-family: "roboto";
+  font-size: 11.5px;
+  font-weight: bold;
+  color: rgb(112, 112, 112);
+  line-height: 1.5em;
+}
+.footer__deliveryNoteUp {
+  padding-bottom: 20px;
+}
+.footer__moreInfo {
+  color: #0078ae;
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer__moreInfo:hover {
+  color: #d31837;
+  text-decoration: none;
+}
+.footer__naira {
+  font-size: 13.5px;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+}
+/* footer Modal section styling---------------------------- */
+.footer__modal {
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 20px;
+  border-radius: 3px;
+}
+.footer__modalBody {
+  width: 500px;
+  height: 450px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(104, 103, 103);
+}
+.footer__modalh2 {
+  margin-top: -15px;
+  color: #4f6491;
+  font-family: "Bebas Neue";
+  font-size: 23px;
+}
+.footer__modalh4 {
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+  font-size: 15px;
+  letter-spacing: -0.04em;
+  margin-bottom: 0px;
+}
+.footer__modalList{
+    list-style: url();
+}
