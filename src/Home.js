@@ -3,19 +3,11 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import "./Home.css";
+import { HomeNavs } from "../src/navs/NavigationMenu"
 function Home() {
-  // The dynamic links displayed @ home on header ============================================
-  const homeNavs = [
-    { name: "ORDER ONLINE", path: "/pages/order/menu" },
-    { name: "MENU", path: "/pages/order/menu" },
-    { name: "DEALS", path: "/pages/order/menu" },
-    { name: "STORES", path: "/pages/order/store" },
-    { name: "TRACKER", path: "/pages/tracker" },
-  ];
-  // ========================================================================================
   return (
     <div className="home__wrapper">
-      <Header navLinks={homeNavs} />
+      <Header navLinks={HomeNavs} />
       <div className="home">
         <div className="home__headerSection">
           <div className="home__headerBorder" />

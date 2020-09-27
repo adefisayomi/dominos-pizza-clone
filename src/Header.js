@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import "./Header.css";
-
 function Header({ navLinks }) {
+
+
   return (
     <nav className="header">
       <div className="header__container">

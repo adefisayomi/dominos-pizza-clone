@@ -1,23 +1,25 @@
-import React from 'react'
-import Header from "./Header"
-import Footer from "./Footer"
-import "./Menu.css"
+import React from "react";
+
+import Header from "./Header";
+import Footer from "./Footer";
+import "./Menu.css";
+import {menuItems} from "../src/api/menuItems"
+import { menuNavs } from "../src/navs/NavigationMenu";
+import Aside from "./Aside";
+import MenuSubNav from "./MenuSubNav";
+import Viewall from "./ViewAll";
 function Menu() {
-    const menuNavs = [
-        { name: "HOME", path: "/" },
-        { name: "MENU", path: "/pages/order/menu" },
-        { name: "DEALS", path: "/pages/order/menu" }
-        
-      ];
-    return (
-        <div clasname= "menu__wrapper">
-            <Header navLinks = {menuNavs}/>
-            <div className="menu">
-        <h2>i am the menu page</h2>
-            </div>
-            <Footer />
-        </div>
-    )
+  return (
+    <div clasname="menu__wrapper">
+      <Header navLinks={menuNavs} />
+      <MenuSubNav />
+      <div className="menu">
+        <Viewall  menuItems = {menuItems}/>
+        <Aside />
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default Menu
+export default Menu;

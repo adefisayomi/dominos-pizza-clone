@@ -1,0 +1,124 @@
+.store {
+  max-width: 950px;
+  display: flex;
+  margin: 30px auto;
+  padding-left: 15px;
+  z-index: 1;
+}
+.store__main {
+  display: flex;
+  flex-direction: column;
+  flex: 0.85 1;
+  margin-right: 15px;
+}
+.store__headerTitle {
+  color: rgb(51, 51, 51);
+  font-size: 45px;
+  font-weight: 100;
+}
+.store__locationContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(207, 206, 206);
+}
+
+.store__locationDynamic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.store__locationHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(3, 96, 139);
+  color: white;
+  padding: 7px 10px;
+  font-weight: 50;
+  font-size: 15px;
+}
+.store__emphasisHeader {
+  flex: 1;
+  font-size: 18px;
+}
+.store__emphasis {
+  font-size: 11px;
+  font-weight: 50px;
+  align-self: center;
+  letter-spacing: 0.07em;
+  padding: 0px 8px;
+}
+.store__edit {
+  color: white;
+}
+.store__details {
+  display: flex;
+  flex-direction: column;
+}
+.store__locationDynamic {
+  border-bottom: 15px solid rgb(232, 239, 245);
+  margin-right: 10px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.store__address {
+  text-align: left;
+  padding-left: 10px;
+  font-family: sans-serif;
+  margin-right: 10px;
+  flex: 0.6;
+}
+.store__deliveryTime {
+  text-align: right;
+}
+.store__details {
+  text-align: left;
+  margin-left: 10px;
+  display: flex;
+  flex: 0.6;
+}
+.store__address > h4,
+.store__details > h4,
+.store__deliveryTime > h4 {
+  color: rgb(0, 120, 174);
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 3px;
+}
+.store__address > p,
+.store__details > p,
+.store__deliveryTime > p {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(102, 102, 102);
+  align-items: center;
+  line-height: 17px;
+}
+.store__details > button {
+  background-color: rgb(227, 24, 55);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-top: 8px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.store__details > button:hover {
+  background-color: rgb(139, 9, 29);
+}
+.store__icon {
+  color: rgb(0, 120, 174);
+  margin-bottom: -12px;
+}
+.store__details > p {
+  padding-bottom: 10px;
+}
+/* ========ASIDE STYLING ==================== */
+
+

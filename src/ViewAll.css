@@ -1,0 +1,36 @@
+.menu__main{
+    flex: 0.85 1;
+    margin: 0px 15px;
+}
+.menu__main > h2 {
+    font-weight: 100;
+    font-size: 45px;
+    color: rgb(65, 65, 65);
+}
+.menu__dynamicPages{
+    display: flex;
+    color: rgb(3,96,139);
+    margin: 15px 0px;
+    border: 1px solid rgb(197, 196, 196);
+    font-size: 14px;
+    
+   
+}
+.menu__labels{
+    flex: 1;
+    margin-left: 20px;
+    align-self: center;
+    font-family: Roboto;
+}
+.menu__link{
+     text-decoration: none;
+}
+p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.menu__dynamicPages:hover{
+    background-color: rgb(3,96,139);
+    color: white;
+}

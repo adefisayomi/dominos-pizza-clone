@@ -16,6 +16,7 @@ function App() {
           <Route path="/pages/tracker" component={Tracker} />
           <Route exact path="/" component={Home} />
         </Switch>
+        
       </div>
     </Router>
   );

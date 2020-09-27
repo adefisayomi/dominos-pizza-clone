@@ -81,6 +81,7 @@ form > button{
    float: right;
    margin-right: 10px;
    transition: 0.8s;
+   font-family: inherit;
 }
 form > button:hover{
 background-color: #860d1f;
